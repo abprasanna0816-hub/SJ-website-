@@ -144,5 +144,30 @@ nav a{
 .hero p{
     font-size:17px;
 }
+.hero {
+    position: relative;
+    text-align: center;
+}
 
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
 }
